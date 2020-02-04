@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "user,olduid,oldgid,newuid,newgid"
 getent passwd | while read line; do
   unset params
   declare -a params
